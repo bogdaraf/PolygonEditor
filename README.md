@@ -1,13 +1,13 @@
 # PolygonEditor
 
 An app with a graphical interface created with Windows Forms (Microsoft .NET Framework) in C#.
-The app allows to draw and edit polygons and create relations between their edges.
 
-![Example screenshot](screenshot.png)
+The app allows to draw and edit polygons and create relations between their edges.
 
 ## Table of Contents
 
 * [General Info](#general-information)
+* [Screenshot](#screenshot)
 * [Features](#features)
 * [Setup](#setup)
 * [Contact](#contact)
@@ -23,24 +23,29 @@ parts of the polygon appropriately so that the relations between the edges are m
 
 Most of the logic of the application and implementation of the algorithms can be found in the Form1.cs file.
 
+## Screenshot
+
+![Example screenshot](screenshot.png)
+
 ## Features
 
-- create multiple polygons by determining positions of their vertices
-- remove a polygon
-- remove a vertex of a polygon
-- add a new vertex in the middle of an edge of an existing polygon
-- move a polygon
-- add a relation of equal lengths of edges between a pair of edges (every time the polygon is modified, the program will try to maintain
+- Create multiple polygons by determining positions of their vertices
+- Remove a polygon
+- Remove a vertex of a polygon
+- Add a new vertex in the middle of an edge of an existing polygon
+- Move a polygon
+- Add a relation of equal lengths of edges between a pair of edges (every time the polygon is modified, the program will try to maintain
 the relation)
-- add a relation of parallel arrangement between a pair of edges
-- remove a relation
-- add a predefined polygon
-- export the data about existing polygons and relations in .json format
-- increase and decrease the thickness of the edges
+- Add a relation of parallel arrangement between a pair of edges
+- Remove a relation
+- Add a predefined polygon
+- Export the data about existing polygons and relations in .json format
+- Increase and decrease the thickness of the edges
 
 ## Setup
 
 To build the project firstly you need to import the project into Visual Studio.
+
 You need to have the Newtonsoft.Json package installed (a popular high-performance JSON framework for .NET).
 
 ## Contact
